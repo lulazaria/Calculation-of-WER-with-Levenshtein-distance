@@ -82,6 +82,7 @@ if __name__ == "__main__":
         if (original_words[x - 1] == transcribed_words[y - 1]):
             x = x-1
             y = y-1
+
         elif(distance_matrix[x][y]==distance_matrix[x-1][y-1]+1):
             #print("substitute: " + str2[j - 1] + " in string2 to " + str1[i - 1] + " in string1");
 
@@ -95,6 +96,7 @@ if __name__ == "__main__":
         elif (distance_matrix[x][y] == distance_matrix[x - 1][y] + 1):
             x = x-1
             insert += 1
+
 
     print("Number of substitute: %d "% substitute)
     print("Number of delete : %d" % delete)
