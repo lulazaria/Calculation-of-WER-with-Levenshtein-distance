@@ -51,7 +51,7 @@ if __name__ == "__main__":
     r2 = transcribed_file.read()
     r1 = r1.lower()
     r2 = r2.lower()
-    sign = ".? ""-,"
+    sign = ".?)’""“!”(-,"
     for char in sign:
         r1 = r1.replace(char, " ")
         r2 = r2.replace(char, " ")

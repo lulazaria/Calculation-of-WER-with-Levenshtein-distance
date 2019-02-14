@@ -38,7 +38,7 @@ jobs:
       - run:
           command: |
             . venv/bin/activate
-            python calculate_wer.py test
+            python calculate_wer.py "example/far_from_the_madding_crowd_ch17.txt" "example/far_from_the_madding_crowd_ch17(transcribed).txt"
       - store_artifacts:
           path: test-reports/
           destination: tr1
