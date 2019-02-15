@@ -9,7 +9,7 @@
 ### Pip
 
 ```bash
-sudo pip install -r requirments 
+sudo pip install -r requirments.txt
 ```
 
 ## Usage
